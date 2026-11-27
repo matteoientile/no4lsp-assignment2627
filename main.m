@@ -1,2 +1,5 @@
 clear; clc; close all;
-addpath('src');
+
+rootDir = fileparts(mfilename('fullpath'));
+cd(rootDir);
+addpath(fullfile(rootDir, 'src'));
