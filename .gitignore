@@ -1,0 +1,10 @@
+# MATLAB autosaves & compiled files
+*.asv
+*.m~
+*.mex*
+*.slxc
+slprj/
+
+# OS metadata
+.DS_Store
+Thumbs.db
